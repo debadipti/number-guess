@@ -1,0 +1,12 @@
+@media (max-width: 567px) {
+  #form .form-group {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #form .form-group button {
+    width: 100%;
+  }
+}
+.hidden {
+  display: none;
+}
