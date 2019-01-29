@@ -1,12 +1,24 @@
+#form .form-group {
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+}
+#form .form-group input {
+  flex: 1;
+}
 @media (max-width: 567px) {
-  #form .form-group {
-    width: 80%;
-    margin: 0 auto;
-  }
   #form .form-group button {
     width: 100%;
   }
 }
 .hidden {
   display: none;
+}
+.show-hint {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.6rem;
+  cursor: help;
+  line-height: 1;
+  border-bottom: 1px dashed #ddd;
 }

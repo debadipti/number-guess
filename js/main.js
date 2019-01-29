@@ -10,6 +10,7 @@ const suggestion = document.getElementById("suggestion");
 const hint = document.getElementById("hint");
 const startField = document.getElementById("start-field");
 const startButton = document.getElementById("start-game");
+const gameRule = document.getElementById("game-rule");
 
 // generate a random number between 1-50
 let numberGuessed = Math.floor(Math.random() * 50) + 1;
@@ -140,6 +141,10 @@ function userSubmit(e) {
 startButton.addEventListener("click", startGame);
 
 function startGame() {
+  // display the form
+  form.style.display = "block";
+  gameRule.style.display = "none";
+
   // set the userTurn to zero
   userTurn = 0;
 
